@@ -1,60 +1,3 @@
-<!-- markdownlint-disable first-line-h1 -->
-<!-- markdownlint-disable html -->
-<!-- markdownlint-disable no-duplicate-header -->
-
-<div align="center">
-  <img src="images/logo.svg" width="60%" alt="DeepSeek LLM" />
-</div>
-<hr>
-<div align="center">
-
-  <a href="https://www.deepseek.com/" target="_blank">
-    <img alt="Homepage" src="images/badge.svg" />
-  </a>
-  <a href="https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B" target="_blank">
-    <img alt="Chat" src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20VL-536af5?color=536af5&logoColor=white" />
-  </a>
-  <a href="https://huggingface.co/deepseek-ai" target="_blank">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white" />
-  </a>
-
-</div>
-
-
-<div align="center">
-
-  <a href="https://discord.gg/Tc7c45Zzu5" target="_blank">
-    <img alt="Discord" src="https://img.shields.io/badge/Discord-DeepSeek%20AI-7289da?logo=discord&logoColor=white&color=7289da" />
-  </a>
-  <a href="images/qr.jpeg" target="_blank">
-    <img alt="Wechat" src="https://img.shields.io/badge/WeChat-DeepSeek%20AI-brightgreen?logo=wechat&logoColor=white" />
-  </a>
-  <a href="https://twitter.com/deepseek_ai" target="_blank">
-    <img alt="Twitter Follow" src="https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white" />
-  </a>
-
-</div>
-
-<div align="center">
-
-  <a href="LICENSE-CODE">
-    <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53">
-  </a>
-  <a href="LICENSE-MODEL">
-    <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53">
-  </a>
-</div>
-
-
-<p align="center">
-  <a href="#3-model-downloads"><b>📥 Model Download</b></a> |
-  <a href="#4-quick-start"><b>⚡ Quick Start</b></a> |
-  <a href="#5-license"><b>📜 License</b></a> |
-  <a href="#6-citation"><b>📖 Citation</b></a> <br>
-  <a href="https://arxiv.org/abs/2403.05525"><b>📄 Paper Link</b></a> |
-  <a href="https://huggingface.co/papers/2403.05525"><b>🤗 Huggingface Paper Link</b></a> |
-  <a href="https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B"><b>👁️ Demo</b></a>
-</p>
 
 
 ## 1. Introduction
@@ -62,10 +5,6 @@
 Introducing DeepSeek-VL, an open-source Vision-Language (VL) Model designed for real-world vision and language understanding applications. DeepSeek-VL possesses general multimodal understanding capabilities, capable of processing logical diagrams, web pages, formula recognition, scientific literature, natural images, and embodied intelligence in complex scenarios.
 
 [DeepSeek-VL: Towards Real-World Vision-Language Understanding](https://arxiv.org/abs/2403.05525)
-
-Haoyu Lu*, Wen Liu*, Bo Zhang**, Bingxuan Wang, Kai Dong, Bo Liu, Jingxiang Sun, Tongzheng Ren, Zhuoshu Li, Hao Yang, Yaofeng Sun, Chengqi Deng, Hanwei Xu, Zhenda Xie, Chong Ruan (*Equal Contribution, **Project Lead)
-
-![](https://github.com/deepseek-ai/DeepSeek-VL/blob/main/images/sample.jpg)
 
 ## 2. Release
 
@@ -201,7 +140,10 @@ pip install -e .[gradio]
 
 python deepseek_vl/serve/app_deepseek.py
 ```
-![](./images/gradio_demo.png)
+<img width="1706" alt="deepseekkk" src="https://github.com/Mrkomiljon/DeepSeek-VL/assets/92161283/9cb26807-fbb8-4223-85f6-b4a03222a074">
+<img width="1687" alt="dep1" src="https://github.com/Mrkomiljon/DeepSeek-VL/assets/92161283/01d87cc1-03da-4da7-bbce-78f4031bd417">
+<img width="1694" alt="dep2" src="https://github.com/Mrkomiljon/DeepSeek-VL/assets/92161283/94276ab1-bd8a-481d-9e0c-18bb1c7fd12c">
+
 
 Have Fun!
 
